@@ -1,0 +1,33 @@
+
+{
+  "PKInfos": [
+    {
+      "Message": "一手撸大神 一下脚踢对 我是你爷爷 造成14伤害",
+      "ShowImages": [
+        "Male1_Action_Stand_Stand_Stand_1.jpg|Male1_Action_Stand_Stand_Stand_1.jpg",
+        "Male2_Action_Stand_Stand_Stand_1.jpg|Male2_Action_Stand_Stand_Stand_1.jpg"
+      ]
+    },
+    {
+      "Message": "一手撸大神 一下脚踢对 我是你爷爷 造成13伤害",
+      "ShowImages": [
+        "Male1_Action_Stand_Stand_Stand_1.jpg|Male1_Action_Base_Base_Kicking_1.jpg",
+        "Male2_Action_Stand_Stand_Stand_1.jpg|Male1_Action_Stand_Stand_Stand_1.jpg"
+      ]
+    },
+    {
+      "Message": "我是你爷爷 一下攻击对 一手撸大神 造成12伤害",
+      "ShowImages": [
+        "Male1_Action_Base_Base_Boxing_1.jpg|Male1_Action_Stand_Stand_Stand_1.jpg",
+        "Male2_Action_Stand_Stand_Stand_1.jpg|Male2_Action_Stand_Stand_Stand_1.jpg"
+      ]
+    },
+    {
+      "Message": "一手撸大神 被 我是你爷爷 击败了",
+      "ShowImages": [
+        "Male1_Action_Stand_Stand_Stand_1.jpg|Male1_Action_Death_Death_LieDown_1.jpg"
+      ]
+    }
+  ],
+  "ReturnCode": 0
+}

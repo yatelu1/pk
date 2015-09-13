@@ -105,13 +105,16 @@ body {
     height: 118px;
 }
 
-#index-cut-04 {
+.index-cut-04 {
     position: absolute;
     left: 0px;
     top: 151px;
     width: 649px;
     height: 455px;
     background: url("../images/index-cut_04.jpg") 0 0 no-repeat;
+}
+.action-bg {
+    background: url("../images/index-cut_action.jpg") 0 0 no-repeat;
 }
 
 #index-cut-05 {
@@ -169,6 +172,11 @@ body {
     top: 685px;
     width: 145px;
     height: 100px;
+    background: url("../images/index-cut_11.jpg") 0 0 no-repeat;
+    cursor: pointer;
+}
+#index-cut-11:hover {
+    background: url("../images/index-cut_25.jpg") 0 0 no-repeat;
 }
 
 #index-cut-12 {
@@ -185,6 +193,11 @@ body {
     top: 685px;
     width: 125px;
     height: 100px;
+    background: url("../images/index-cut_13.jpg") 0 0 no-repeat;
+    cursor: pointer;
+}
+#index-cut-13:hover {
+    background: url("../images/index-cut_27.jpg") 0 0 no-repeat;
 }
 
 #index-cut-14 {
@@ -504,4 +517,34 @@ body {
     width: 140px;
     height: 55px;
     display: inline-block;
+}
+.message-action {
+    left: 160px;
+    top: 325px;
+    position: absolute;
+    height: 79px;
+    overflow-y: auto;
+
+}
+
+.message-action p{
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #fcf9e8;
+    padding: 0 10px;
+    text-align: center;
+    border-radius: 10px;
+    display: table;
+    margin: 0 auto 10px auto;
+}
+.left-action {
+    position: absolute;
+    left: 107px;
+    top: 54px;
+}
+.right-action {
+    position: absolute;
+    right: 100px;
+    top: 56px;
 }
