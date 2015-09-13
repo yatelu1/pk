@@ -1,0 +1,507 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+fieldset, img {
+    border: 0;
+}
+
+address, caption, cite, code, dfn, em, strong, th, var {
+    font-style: normal;
+    font-weight: normal;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+caption, th {
+    text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+q:before, q:after {
+    content: '';
+}
+
+abbr, acronym {
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+/* start commented backslash hack \*/
+* html .clearfix {
+    height: 1%;
+}
+
+.clearfix {
+    display: block;
+}
+
+/* close commented backslash hack */
+
+body {
+    background: url('../images/bg.jpg') center 50px no-repeat;
+    font-family: "Microsoft Yahei", "微软雅黑", Tahoma, Arial, Helvetica, STHeiti;
+    font-size: 12px;
+    color: #333;
+}
+
+#index-cut {
+    position: relative;
+    margin: 0 auto;
+    width: 970px;
+    height: 1806px;
+}
+
+#index-cut-01 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 649px;
+    height: 151px;
+}
+
+#index-cut-02 {
+    position: absolute;
+    left: 649px;
+    top: 0px;
+    width: 321px;
+    height: 99px;
+}
+
+#index-cut-03 {
+    position: absolute;
+    left: 649px;
+    top: 99px;
+    width: 321px;
+    height: 118px;
+}
+
+#index-cut-04 {
+    position: absolute;
+    left: 0px;
+    top: 151px;
+    width: 649px;
+    height: 455px;
+    background: url("../images/index-cut_04.jpg") 0 0 no-repeat;
+}
+
+#index-cut-05 {
+    position: absolute;
+    left: 649px;
+    top: 217px;
+    width: 321px;
+    height: 109px;
+}
+
+#index-cut-06 {
+    position: absolute;
+    left: 649px;
+    top: 326px;
+    width: 321px;
+    height: 112px;
+}
+
+#index-cut-07 {
+    position: absolute;
+    left: 649px;
+    top: 438px;
+    width: 321px;
+    height: 49px;
+}
+
+#index-cut-08 {
+    position: absolute;
+    left: 649px;
+    top: 487px;
+    width: 321px;
+    height: 144px;
+    background: url("../images/index-cut_08.jpg") 0 0 no-repeat;
+}
+
+#index-cut-09 {
+    position: absolute;
+    left: 0px;
+    top: 606px;
+    width: 649px;
+    height: 214px;
+}
+
+#index-cut-10 {
+    position: absolute;
+    left: 649px;
+    top: 631px;
+    width: 321px;
+    height: 54px;
+}
+
+#index-cut-11 {
+    position: absolute;
+    left: 649px;
+    top: 685px;
+    width: 145px;
+    height: 100px;
+}
+
+#index-cut-12 {
+    position: absolute;
+    left: 794px;
+    top: 685px;
+    width: 51px;
+    height: 100px;
+}
+
+#index-cut-13 {
+    position: absolute;
+    left: 845px;
+    top: 685px;
+    width: 125px;
+    height: 100px;
+}
+
+#index-cut-14 {
+    position: absolute;
+    left: 649px;
+    top: 785px;
+    width: 321px;
+    height: 35px;
+}
+
+#index-cut-15 {
+    position: absolute;
+    left: 0px;
+    top: 820px;
+    width: 970px;
+    height: 90px;
+}
+
+#index-cut-16 {
+    position: absolute;
+    left: 0px;
+    top: 910px;
+    width: 904px;
+    height: 197px;
+    background: url("../images/index-cut_16.jpg") 0 0 no-repeat;
+    padding: 28px 0 0 66px;
+}
+
+#index-cut-17 {
+    position: absolute;
+    left: 0px;
+    top: 1135px;
+    width: 970px;
+    height: 117px;
+}
+
+#index-cut-18 {
+    position: absolute;
+    left: 0px;
+    top: 1252px;
+    width: 890px;
+    height: 445px;
+    background: url("../images/index-cut_18.jpg") 0 0 no-repeat;
+    padding: 34px 0 0 80px;
+}
+
+#index-cut-19 {
+    position: absolute;
+    left: 0px;
+    top: 1731px;
+    width: 970px;
+    height: 75px;
+}
+
+.top {
+    width: 100%;
+    height: 50px;
+    background-color: #ee353d;
+}
+
+.top-inner {
+    width: 970px;
+    margin: 0 auto;
+}
+
+.bottom2 {
+    width: 100%;
+    height: 150px;
+    background: #343434;
+}
+
+.bottom2 .b-c {
+    width: 960px;
+    margin: 0 auto;
+    line-height: 20px;
+}
+
+.bottom2 .b-c ul {
+    float: left;
+    margin-right: 45px;
+    margin-top: 25px;
+    color: #686868;
+}
+
+.bottom2 .b-c ul li a {
+    color: #686868;
+}
+
+.bottom2 .b-c p {
+    float: right;
+    width: 225px;
+    height: 118px;
+    margin-top: 10px;
+}
+
+.bottom2 .b-c span {
+    float: left;
+    width: 70%;
+    text-align: left;
+    line-height: 40px;
+    color: #060606;
+}
+
+.scrollable .header {
+    background: url("../images/index-cut_01_18.jpg") 0 0 no-repeat;
+    width: 115px;
+    height: 137px;
+}
+
+.scrollable .header img {
+    margin: 6px 0 0 6px;
+    width: 103px;
+}
+
+.scrollable {
+    position: relative;
+    overflow: hidden;
+    width: 840px;
+    height: 190px;
+}
+
+.scrollable .items {
+    width: 20000em;
+    position: absolute;
+}
+
+.scrollable ul {
+    float: left;
+}
+
+.scrollable li {
+    width: 115px;
+    float: left;
+    margin: 0 30px 0 0;
+}
+
+.scrollable li p {
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.scrollable li .score {
+    color: #ee353d;
+}
+
+.browse {
+    position: absolute;
+    width: 31px;
+    height: 32px;
+    z-index: 1;
+}
+
+.browse.left {
+    background: url("../images/index-cut_01_21.jpg") 0 0 no-repeat;
+    top: 76px;
+    left: 21px;
+}
+
+.browse.right {
+    background: url("../images/index-cut_01_24.jpg") 0 0 no-repeat;
+    top: 76px;
+    right: 21px;
+}
+
+.vs-top {
+    position: relative;
+    width: 232px;
+    height: 140px;
+}
+
+.vs-top div,
+.vs-top img {
+    position: absolute;
+}
+
+.vs-top img {
+    left: 88px;
+    top: 40px;
+}
+
+.vs-top .vs-l {
+    background: url("../images/index-cut_36.png") 0 0 no-repeat;
+    width: 119px;
+    height: 129px;
+    transform: rotate(-24deg);
+}
+
+.vs-top .vs-l img {
+    position: static;
+    margin: 5px;
+    width: 107px;
+}
+
+.vs-top .vs-r img {
+    position: static;
+    margin: 5px;
+    width: 90px;
+}
+
+.vs-top .vs-r {
+    background: url("../images/index-cut_39.png") 0 0 no-repeat;
+    width: 101px;
+    height: 109px;
+    right: 0;
+    transform: rotate(24deg);
+}
+
+.vs-list li {
+    float: left;
+    margin: 0 50px 30px 0;
+}
+
+.vs-list li p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.vs-list li p span {
+    color: #fcff0f;
+}
+
+.page-wrap {
+    text-align: center;
+}
+
+.page-wrap span a {
+    color: #000;
+    margin: 0 5px;
+}
+
+.page-btn {
+    background: url("../images/index-cut_37.png") 0 0 no-repeat;
+    width: 77px;
+    height: 28px;
+    display: inline-block;
+    line-height: 28px;
+    font-size: 14px;
+    text-align: center;
+    color: #000;
+}
+
+.page-btn.disabled {
+    background: url("../images/index-cut_35.png") 0 0 no-repeat;
+}
+
+.content-base-info {
+    padding: 15px 0 0 30px;
+}
+
+.content-base-info p {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.content-base-info p span {
+    font-size: 12px;
+}
+
+.screen {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -101px;
+    margin-top: -40px;
+}
+
+.popup-overlay {
+    display: none;
+    background: url("../images/popup.png") 0 0 no-repeat;
+    width: 707px;
+    height: 559px;
+}
+
+.popup-overlay .close {
+    background: url("../images/close-btn.png") 0 0 no-repeat;
+    width: 71px;
+    height: 66px;
+    position: absolute;
+    display: block;
+    right: 0;
+    top: -34px;
+}
+.input-form {
+    position: absolute;
+    top: 146px;
+    left: 140px;
+}
+.input-form input {
+    width: 385px;
+    height: 62px;
+    border: none;
+    background: transparent;
+    font-size: 36px;
+    color: #a6a6a6;
+    padding-left: 14px;
+}
+.buttons {
+    position: absolute;
+    left: 170px;
+    top: 252px;
+}
+.done-btn {
+    background: url("../images/done-btn.jpg") 0 0 no-repeat;
+    width: 140px;
+    height: 55px;
+    display: inline-block;
+    margin-right: 50px;
+}
+.cancel-btn {
+    background: url("../images/cancel-btn.jpg") 0 0 no-repeat;
+    width: 140px;
+    height: 55px;
+    display: inline-block;
+}
