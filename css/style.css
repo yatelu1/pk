@@ -547,4 +547,8 @@ body {
     position: absolute;
     right: 100px;
     top: 56px;
+    -moz-transform:scaleX(-1);
+    -webkit-transform:scaleX(-1);
+    -o-transform:scaleX(-1);
+    transform:scaleX(-1);
 }
