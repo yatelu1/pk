@@ -523,7 +523,7 @@ body {
     top: 325px;
     position: absolute;
     height: 79px;
-    overflow-y: auto;
+    overflow: hidden;
 
 }
 
