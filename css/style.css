@@ -519,11 +519,11 @@ body {
     display: inline-block;
 }
 .message-action {
-    left: 160px;
     top: 325px;
     position: absolute;
     height: 79px;
     overflow: hidden;
+    width: 100%;
 
 }
 
@@ -551,4 +551,43 @@ body {
     -webkit-transform:scaleX(-1);
     -o-transform:scaleX(-1);
     transform:scaleX(-1);
+}
+.challenger-imgs {
+    cursor: pointer;
+}
+.challenger-img1 {
+    background: url("../images/index-cut_03.jpg") 0 0 no-repeat;
+}
+.challenger-img1.active {
+    background: url("../images/index-cut_03*active.jpg") 0 0 no-repeat
+}
+.challenger-img2 {
+    background: url("../images/index-cut_05.jpg") 0 0 no-repeat;
+}
+.challenger-img2.active {
+    background: url("../images/index-cut_05*active.jpg") 0 0 no-repeat
+}
+.challenger-img3 {
+    background: url("../images/index-cut_06.jpg") 0 0 no-repeat;
+}
+.challenger-img3.active {
+    background: url("../images/index-cut_06*active.jpg") 0 0 no-repeat
+}
+.challenger-img4 {
+    background: url("../images/index-cut_03.jpg") 0 0 no-repeat;
+}
+.challenger-img4.active {
+    background: url("../images/index-cut_03*active.jpg") 0 0 no-repeat
+}
+.challenger-img5 {
+    background: url("../images/index-cut_05.jpg") 0 0 no-repeat;
+}
+.challenger-img5.active {
+    background: url("../images/index-cut_05*active.jpg") 0 0 no-repeat
+}
+.challenger-img6 {
+    background: url("../images/index-cut_06.jpg") 0 0 no-repeat;
+}
+.challenger-img6.active {
+    background: url("../images/index-cut_06*active.jpg") 0 0 no-repeat
 }

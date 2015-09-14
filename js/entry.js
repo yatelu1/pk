@@ -11,6 +11,7 @@ $(function () {
         $(el).html('<img src=images/actions/' + val + '>');
     }
 
+
     $(".scrollable").scrollable();
     $('.play-btn').overlay({mask: '#000'});
     $('.cancel-btn').click(function () {
@@ -28,11 +29,11 @@ $(function () {
                 dataType: 'json'
             }).success(function (data) {
                 if (data.ReturnCode === 0) {
-                    var idx = 0;
-                    changeAction(idx);
                     function changeAction(i) {
                         if (i < data.PKInfos.length) {
-                            $('.message-action-inner').prepend('<p>' + data.PKInfos[i].Message + '</p>');
+                            if (data.PKInfos[i].Message !== '') {
+                                $('.message-action-inner').prepend('<p>' + data.PKInfos[i].Message + '</p>');
+                            }
                             showActionImg('.left-action', splitImg(data.PKInfos[i].ShowImages[0]).img1);
                             showActionImg('.right-action', splitImg(data.PKInfos[i].ShowImages[0]).img2);
                             if (data.PKInfos[i].ShowImages[1]) {
@@ -49,10 +50,28 @@ $(function () {
                         }
                     }
 
-
+                    var idx = 0;
+                    changeAction(idx);
                 }
             });
         }
+    });
+
+    $('.next-ava').click(function () {
+        $('#index-cut-03').addClass('challenger-img4').removeClass('challenger-img1 active').attr('data-id','4');
+        $('#index-cut-05').addClass('challenger-img5').removeClass('challenger-img2 active').attr('data-id','5');;
+        $('#index-cut-06').addClass('challenger-img6').removeClass('challenger-img3 active').attr('data-id','7');;
+
+    });
+    $('.prev-ava').click(function () {
+        $('#index-cut-03').addClass('challenger-img1').removeClass('challenger-img4 active').attr('data-id','1');;
+        $('#index-cut-05').addClass('challenger-img2').removeClass('challenger-img5 active').attr('data-id','2');;
+        $('#index-cut-06').addClass('challenger-img3').removeClass('challenger-img6 active').attr('data-id','3');;
+    });
+
+    $('.challenger-imgs').click(function () {
+        $(this).addClass('active').siblings().removeClass('active');
+        $('#avaId').val($(this).attr('data-id'))
     });
 
 });
